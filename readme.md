@@ -4,7 +4,7 @@ Exphub[漏洞利用脚本库] （想要star⭐~)
 部分脚本或程序是从网上搜集的，若有版权要求联系即改  
 论坛：https://freeerror.org/d/487
 
-最后更新：2020/04/09 (持续填坑中)  
+最后更新：2020/04/16 (持续填坑中)，最近杭州出差，缓更一段时间～
 
 # Readme
 Exphub包括多种不同名称、类型、格式、后缀的文件，这些文件可以大致分为[漏洞验证脚本]、[漏洞利用脚本]、[远程命令执行脚本]、[shell交互脚本]、[Webshell上传脚本]  
@@ -40,6 +40,8 @@ Exphub包括多种不同名称、类型、格式、后缀的文件，这些文�
 [**cve-2020-2551_poc.py**](https://github.com/zhzyker/exphub/blob/master/weblogic/) Weblogic IIOP 反序列化漏洞检测脚本
 
 ## Struts2
+[**struts2-032_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2)	Struts2 method 任意代码执行漏洞GetShell利用脚本(CVE-2016-3081)  
+[**struts2-032_poc.py**](https://github.com/zhzyker/exphub/blob/master/struts2)	Struts2 method 任意代码执行漏洞检测脚本(CVE-2016-3081)    
 [**struts2-045_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2)	Struts2 Jakarta Multipart parser 插件远程命令执行漏洞利用脚本1(CVE-2017-5638)[[使用]](https://freeerror.org/d/490)  
 [**struts2-045-2_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2)	Struts2 Jakarta Multipart parser 插件远程命令执行漏洞利用脚本2(CVE-2017-5638)[[使用]](https://freeerror.org/d/490)  
 [**struts2-052_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2) Struts2 REST 插件远程代码执行漏洞利用脚本(CVE-2017-9805)  
@@ -47,12 +49,9 @@ Exphub包括多种不同名称、类型、格式、后缀的文件，这些文�
 [**struts2-053_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2) Struts2 Freemarker 标签远程执行命令漏洞利用脚本(CVE-2017-12611)  
 [**struts2-057_cmd.py**](https://github.com/zhzyker/exphub/blob/master/struts2) Struts2 Namespace 远程代码执行漏洞利用脚本(CVE-2018-11776)  
 
-
-
 ## Tomcat
+[**cve-2017-12615_cmd.py**](https://github.com/zhzyker/exphub/blob/master/tomcat/) Tomcat 远程代码执行漏洞利用脚本[[使用]](https://freeerror.org/d/411)  
 [**cve-2020-1938_exp.py**](https://github.com/zhzyker/exphub/blob/master/tomcat/) Tomcat 幽灵猫任意文件读取漏洞利用脚本[[使用]](https://freeerror.org/d/484)  
-[**cve-2017-12615_cmd.py**](https://github.com/zhzyker/exphub/blob/master/tomcat/) Tomcat 远程代码执行漏洞利用脚本
-[[使用]](https://freeerror.org/d/411)
 
 ## Drupal
 [**cve-2018-7600_cmd.py**](https://github.com/zhzyker/exphub/tree/master/drupal) Drupal Drupalgeddon 2 远程代码执行漏洞利用脚本[[使用]](https://freeerror.org/d/426)  
@@ -60,3 +59,11 @@ Exphub包括多种不同名称、类型、格式、后缀的文件，这些文�
 [**cve-2018-7602_cmd.py**](https://github.com/zhzyker/exphub/tree/master/drupal) Drupal 内核远程代码执行漏洞利用脚本(需要账户密码)  
 [**cve-2018-7602_poc.py**](https://github.com/zhzyker/exphub/tree/master/drupal) 该脚本可检测 CVE-2018-7602 和 CVE-2018-7600  
 [**cve-2019-6340_cmd.py**](https://github.com/zhzyker/exphub/tree/master/drupal) Drupal 8.x REST RCE 远程执行代码漏洞利用脚本 
+
+## Nexus
+[**cve-2019-7238_cmd.py**](https://github.com/zhzyker/exphub/tree/master/nexus/) Nexus Repository Manager 3 远程代码执行漏洞利用脚本  
+[**cve-2020-10199_poc.py**](https://github.com/zhzyker/exphub/tree/master/nexus/) Nexus Repository Manager 3 远程命令执行漏洞检测脚本
+
+## Jboss
+[**cve-2017-12149_poc.py**](https://github.com/zhzyker/exphub/tree/master/jboss) JBoss 5.x/6.x 反序列化远程代码执行漏洞验证脚本  
+[**cve-2017-12149_cmd.py**](https://github.com/zhzyker/exphub/tree/master/jboss) JBoss 5.x/6.x 反序列化远程代码执行漏洞利用脚本  
